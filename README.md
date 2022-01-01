@@ -4,10 +4,10 @@ Not finished yet
 
 These are some open CV python programms that might be handy in the future like
 
-Image Resizer
+- Image Resizer
 
-Corner Detection
+- Corner Detection
 
-Live Color Indentifier
+- Live Color Indentifier
 
-Color Detector
+- Color Detector
