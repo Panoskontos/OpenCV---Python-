@@ -1,4 +1,4 @@
-# OpenCV---Python-
+# OpenCV-Python
 Not finished yet
 
 
