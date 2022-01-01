@@ -15,17 +15,7 @@ while True:
     width = int(cap.get(3))
     height = int(cap.get(4))
     
-    image = np.zeros(frame.shape, np.uint8)
-    
-    smalframe = cv2.resize(frame, (0,0), fx=0.5, fy=0.5)
-
-    image[:height//2, :width//2] = smalframe
-    image[height//2:, :width//2] = smalframe
-    image[:height//2, width//2:] = smalframe
-    image[height//2:, width//2:] = smalframe
-
-    
-    cv2.imshow('frame', image)
+    cv2.imshow('frame', frame)
 
     # close with q
     if cv2.waitKey(1) == ord('q'):
